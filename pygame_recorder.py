@@ -33,6 +33,7 @@ class ScreenRecorder:
         """
         # transform the pixels to the format used by open-cv
         pixels = cv2.rotate(pygame.surfarray.pixels3d(surf), cv2.ROTATE_90_CLOCKWISE)
+        pixels = cv2.flip(pixels, 1)
         pixels = cv2.cvtColor(pixels, cv2.COLOR_RGB2BGR)
 
         # write the frame
