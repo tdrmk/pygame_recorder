@@ -1,1 +1,1 @@
-from .pygame_recorder import SreenRecorder
+from .pygame_recorder import ScreenRecorder
