@@ -10,14 +10,20 @@ pass in the required parameters (display height, width and frame per second) whi
 Call the `capture_frame` method after updating the display. 
 Call `end_recording` method while exiting the game loop.
 
-To use the module, install the dependencies using 
+To use the module, clone this repository then install:
+```bash
+git clone https://github.com/tdrmk/pygame_recorder.git
+cd pygame_recorder
+pip install .
 ```
-pip install -r requirements.txt
+or directly (without cloning):
+```bash
+pip install git+https://github.com/jcranney/pygame_recorder.git
 ```
+
 
 Sample Usage:
 ```python
-
 import pygame
 from pygame_recorder import ScreenRecorder
 
