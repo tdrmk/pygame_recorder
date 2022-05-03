@@ -12,7 +12,7 @@ Call `end_recording` method while exiting the game loop.
 
 To use the module, clone this repository then install:
 ```bash
-git clone https://github.com/tdrmk/pygame_recorder.git
+git clone https://github.com/jcranney/pygame_recorder.git
 cd pygame_recorder
 pip install .
 ```
